@@ -1,0 +1,576 @@
+[
+    {
+        "id": 1,
+        "nombre": "Vestido MALIBÚ",
+        "categoria": "Vestidos",
+        "talles": [
+            1,
+            4,
+            1,
+            4,
+            3
+        ],
+        "precio": 7000,
+        "imagen": "./multimedia/vest1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Vestido GRECIA",
+        "categoria": "Vestidos",
+        "talles": [
+            1,
+            4,
+            1,
+            4,
+            3
+        ],
+        "precio": 10000,
+        "imagen": "./multimedia/vest2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Vestido NEPAL",
+        "categoria": "Vestidos",
+        "talles": [
+            1,
+            4,
+            1,
+            4,
+            3
+        ],
+        "precio": 8000,
+        "imagen": "./multimedia/vest3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Vestido ITALIA",
+        "categoria": "Vestidos",
+        "talles": [
+            1,
+            4,
+            1,
+            4,
+            3
+        ],
+        "precio": 9500,
+        "imagen": "./multimedia/vest4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Vestido LUISA",
+        "categoria": "Vestidos",
+        "talles": [
+            1,
+            4,
+            1,
+            4,
+            3
+        ],
+        "precio": 8700,
+        "imagen": "./multimedia/vest5.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Vestido AUSTRIA",
+        "categoria": "Vestidos",
+        "talles": [
+            1,
+            4,
+            1,
+            4,
+            3
+        ],
+        "precio": 7600,
+        "imagen": "./multimedia/vest6.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Remera MERAKI",
+        "categoria": "Remeras",
+        "talles": [
+            1,
+            2,
+            0,
+            1,
+            1
+        ],
+        "precio": 3800,
+        "imagen": "./multimedia/rem1.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Remera KENIA",
+        "categoria": "Remeras",
+        "talles": [
+            1,
+            2,
+            0,
+            1,
+            1
+        ],
+        "precio": 4000,
+        "imagen": "./multimedia/rem2.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Remera OLIVIA",
+        "categoria": "Remeras",
+        "talles": [
+            1,
+            2,
+            0,
+            1,
+            1
+        ],
+        "precio": 4000,
+        "imagen": "./multimedia/rem3.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Remera CEBRA",
+        "categoria": "Remeras",
+        "talles": [
+            1,
+            2,
+            0,
+            1,
+            1
+        ],
+        "precio": 4800,
+        "imagen": "./multimedia/rem4.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Remera SKY",
+        "categoria": "Remeras",
+        "talles": [
+            1,
+            2,
+            0,
+            1,
+            1
+        ],
+        "precio": 4500,
+        "imagen": "./multimedia/rem5.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Remera PARIS",
+        "categoria": "Remeras",
+        "talles": [
+            1,
+            2,
+            0,
+            1,
+            1
+        ],
+        "precio": 5000,
+        "imagen": "./multimedia/rem6.png"
+    },
+    {
+        "id": 13,
+        "nombre": "Remera BLACK",
+        "categoria": "Remeras",
+        "talles": [
+            1,
+            2,
+            0,
+            1,
+            1
+        ],
+        "precio": 3600,
+        "imagen": "./multimedia/rem7.png"
+    },
+    {
+        "id": 14,
+        "nombre": "Remera CALIFORNIA",
+        "categoria": "Remeras",
+        "talles": [
+            1,
+            2,
+            0,
+            1,
+            1
+        ],
+        "precio": 4000,
+        "imagen": "./multimedia/rem8.png"
+    },
+    {
+        "id": 15,
+        "nombre": "Sweater HAILEY",
+        "categoria": "Sweaters",
+        "talles": [
+            1,
+            2,
+            2,
+            4,
+            0
+        ],
+        "precio": 6000,
+        "imagen": "./multimedia/sw1.png"
+    },
+    {
+        "id": 16,
+        "nombre": "Sweater CLAIRE",
+        "categoria": "Sweaters",
+        "talles": [
+            1,
+            2,
+            2,
+            4,
+            0
+        ],
+        "precio": 6500,
+        "imagen": "./multimedia/sw2.png"
+    },
+    {
+        "id": 17,
+        "nombre": "Sweater GESELL",
+        "categoria": "Sweaters",
+        "talles": [
+            1,
+            2,
+            2,
+            4,
+            0
+        ],
+        "precio": 5900,
+        "imagen": "./multimedia/sw3.png"
+    },
+    {
+        "id": 18,
+        "nombre": "Sweater LILA",
+        "categoria": "Sweaters",
+        "talles": [
+            1,
+            2,
+            2,
+            4,
+            0
+        ],
+        "precio": 6000,
+        "imagen": "./multimedia/sw4.png"
+    },
+    {
+        "id": 19,
+        "nombre": "Cardigan ARA",
+        "categoria": "Sweaters",
+        "talles": [
+            1,
+            2,
+            2,
+            4,
+            0
+        ],
+        "precio": 6500,
+        "imagen": "./multimedia/sw5.png"
+    },
+    {
+        "id": 20,
+        "nombre": "Cardigan COBRA",
+        "categoria": "Sweaters",
+        "talles": [
+            1,
+            2,
+            2,
+            4,
+            0
+        ],
+        "precio": 6900,
+        "imagen": "./multimedia/sw6.png"
+    },
+    {
+        "id": 21,
+        "nombre": "Sweater MANU",
+        "categoria": "Sweaters",
+        "talles": [
+            1,
+            2,
+            2,
+            4,
+            0
+        ],
+        "precio": 7000,
+        "imagen": "./multimedia/sw7.png"
+    },
+    {
+        "id": 22,
+        "nombre": "Sweater OTOÑO",
+        "categoria": "Sweaters",
+        "talles": [
+            1,
+            2,
+            2,
+            4,
+            0
+        ],
+        "precio": 8600,
+        "imagen": "./multimedia/sw8.png"
+    },
+    {
+        "id": 23,
+        "nombre": "Sweater ROMA",
+        "categoria": "Sweaters",
+        "talles": [
+            1,
+            2,
+            2,
+            4,
+            0
+        ],
+        "precio": 6000,
+        "imagen": "./multimedia/sw9.png"
+    },
+    {
+        "id": 24,
+        "nombre": "Pantalón TOMMY",
+        "categoria": "Pantalones",
+        "talles": [
+            4,
+            2,
+            4,
+            0,
+            1
+        ],
+        "precio": 11000,
+        "imagen": "./multimedia/pan1.png"
+    },
+    {
+        "id": 25,
+        "nombre": "Pantalón ROCOCO",
+        "categoria": "Pantalones",
+        "talles": [
+            4,
+            2,
+            4,
+            0,
+            1
+        ],
+        "precio": 11300,
+        "imagen": "./multimedia/pan2.png"
+    },
+    {
+        "id": 26,
+        "nombre": "Pantalón MILEY",
+        "categoria": "Pantalones",
+        "talles": [
+            4,
+            2,
+            4,
+            0,
+            1
+        ],
+        "precio": 12000,
+        "imagen": "./multimedia/pan3.png"
+    },
+    {
+        "id": 27,
+        "nombre": "Pantalón WILD",
+        "categoria": "Pantalones",
+        "talles": [
+            4,
+            2,
+            4,
+            0,
+            1
+        ],
+        "precio": 8900,
+        "imagen": "./multimedia/pan4.png"
+    },
+    {
+        "id": 28,
+        "nombre": "Pantalón SUN",
+        "categoria": "Pantalones",
+        "talles": [
+            4,
+            2,
+            4,
+            0,
+            1
+        ],
+        "precio": 9000,
+        "imagen": "./multimedia/pan5.png"
+    },
+    {
+        "id": 29,
+        "nombre": "Pantalón RACHEL",
+        "categoria": "Pantalones",
+        "talles": [
+            4,
+            2,
+            4,
+            0,
+            1
+        ],
+        "precio": 9600,
+        "imagen": "./multimedia/pan6.png"
+    },
+    {
+        "id": 30,
+        "nombre": "Pantalón PRAGA",
+        "categoria": "Pantalones",
+        "talles": [
+            4,
+            2,
+            4,
+            0,
+            1
+        ],
+        "precio": 8500,
+        "imagen": "./multimedia/pan7.png"
+    },
+    {
+        "id": 31,
+        "nombre": "Pollera POMPÓN",
+        "categoria": "Polleras",
+        "talles": [
+            0,
+            2,
+            2,
+            4,
+            2
+        ],
+        "precio": 9500,
+        "imagen": "./multimedia/polle1.png"
+    },
+    {
+        "id": 32,
+        "nombre": "Pollera LONDON",
+        "categoria": "Polleras",
+        "talles": [
+            0,
+            2,
+            2,
+            4,
+            2
+        ],
+        "precio": 7800,
+        "imagen": "./multimedia/polle2.png"
+    },
+    {
+        "id": 33,
+        "nombre": "Pollera VERONA",
+        "categoria": "Polleras",
+        "talles": [
+            0,
+            2,
+            2,
+            4,
+            2
+        ],
+        "precio": 8000,
+        "imagen": "./multimedia/polle3.png"
+    },
+    {
+        "id": 34,
+        "nombre": "Pollera TIFFANY",
+        "categoria": "Polleras",
+        "talles": [
+            0,
+            2,
+            2,
+            4,
+            2
+        ],
+        "precio": 7800,
+        "imagen": "./multimedia/polle4.png"
+    },
+    {
+        "id": 35,
+        "nombre": "Pollera GIN",
+        "categoria": "Polleras",
+        "talles": [
+            0,
+            2,
+            2,
+            4,
+            2
+        ],
+        "precio": 10000,
+        "imagen": "./multimedia/polle5.png"
+    },
+    {
+        "id": 36,
+        "nombre": "Campera WINTER",
+        "categoria": "Camperas",
+        "talles": [
+            3,
+            2,
+            1,
+            3,
+            5
+        ],
+        "precio": 11300,
+        "imagen": "./multimedia/cam1.png"
+    },
+    {
+        "id": 37,
+        "nombre": "Campera SOPHIE",
+        "categoria": "Camperas",
+        "talles": [
+            3,
+            2,
+            1,
+            3,
+            5
+        ],
+        "precio": 10500,
+        "imagen": "./multimedia/cam2.png"
+    },
+    {
+        "id": 38,
+        "nombre": "Campera HENRY",
+        "categoria": "Camperas",
+        "talles": [
+            3,
+            2,
+            1,
+            3,
+            5
+        ],
+        "precio": 10500,
+        "imagen": "./multimedia/cam3.png"
+    },
+    {
+        "id": 39,
+        "nombre": "Campera COACHELLA",
+        "categoria": "Camperas",
+        "talles": [
+            3,
+            2,
+            1,
+            3,
+            5
+        ],
+        "precio": 12100,
+        "imagen": "./multimedia/cam4.png"
+    },
+    {
+        "id": 40,
+        "nombre": "Campera LENNY",
+        "categoria": "Camperas",
+        "talles": [
+            3,
+            2,
+            1,
+            3,
+            5
+        ],
+        "precio": 10400,
+        "imagen": "./multimedia/cam5.png"
+    },
+    {
+        "id": 40,
+        "nombre": "Campera LOVER",
+        "categoria": "Camperas",
+        "talles": [
+            3,
+            2,
+            1,
+            3,
+            5
+        ],
+        "precio": 10400,
+        "imagen": "./multimedia/cam6.png"
+    }
+]

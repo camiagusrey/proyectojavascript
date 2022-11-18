@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+/*NAV*/
+.container-navlogocart{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo-img{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 130px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.navbar-nav{
+    padding: 20px 0 0 0;
+}
+
+#dropdown-categorias{
+    width: 10px;
+}
+
+/*CARRITO*/
+li{
+    font-size: 14px;
+}
+
+#total{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.carritodiv{
+    padding: 5px;
+}
+
+.dropdown-menu{
+    width: auto;
+}
+
+#carrito{
+    padding: 10px;
+    width: 300px;
+}
+
+#dropdownMenuButton{
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.dropdown-toggle::after{
+    color: black;
+}
+
+#badgeCarrito{
+    background-color: #e0a9fc;
+}
+.badgeOculto{
+    display:none;
+}
+
+sup {
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+.bi, .bi-cart2{
+    color: black;
+}
+
+/*CARDS*/
+h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.selector{
+    display: flex;
+    justify-content: right;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-text-cat{
+    display: none;
+}
+
+.card-text-precio{
+    color: rgba(4,4,4,0.3);
+}
+
+.card-text-talle{
+    display: flex;
+    flex-direction: column;
+}
+
+#addButton-0{
+    background-color: rgba(4,4,4,0.3);
+    border: rgba(4,4,4,0.3);
+}
+
+.add-button{
+    margin-top: 1em;
+}
+
+.btn-primary{
+    background-color: #e4c8f7;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #e0a9fc;
+}
+
+/*PREGUNTAS FRECUENTES*/
+.titulo{
+    color: #cd85f1;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.preguntas-frec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+/*CONTACTO*/
+.contacto{
+    padding: 70px 0 70px 0;
+}
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #cd85f1; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #cd85f1; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+label{
+    display: block; 
+    float: center;  
+}
+
+button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #cd85f1; 
+    border-color: #cd85f1; 
+    border-style: solid; 
+    border-radius: 10px;    
+    cursor: pointer;
+}
+
+button p{
+    color: #fff; 
+}
+
+span{
+    color: #cd85f1; 
+}
+
+.aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+}
+
+p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+.formulario input:focus{
+    outline:0;
+    border: 1px solid gray;
+}
+
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid gray;
+}
+
+#enviar{
+    height: 25px;
+}
+
+/*FOOTER*/
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: #cd85f1;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    border: black;
+    font-size: 22px;
+}
+
+.subir:hover{
+        color: gray;
+}
+
+footer {
+        height: 100px;
+        text-align: center;
+        margin-bottom: 45px;
+        margin-top: 30px;
+}
+
+.webmaster {
+        font-size: 12px;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 15px;
+}
+
+.name-webmaster{
+    color: #cd85f1;
+}
+
+.name-webmaster:hover{
+    color: #bc4ff3;
+}
+
+.logo-footer{
+        width: 80px;
+        height: auto;
+        padding-top: 15px;
+}
+
+.middle {
+        position: relative;
+        transform: translateY(-50%);
+        width: 100%;
+        top: 40%;
+        padding-top: 30px;
+}
+
+.btn-redes {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin: 4px;
+        border-radius: 50%;
+        color: black;
+        overflow: hidden;
+        position: relative;
+}
+
+.btn-redes i {
+        line-height: 40px;
+        font-size: 14px;
+        transition: 0.2s linear;
+}
+
+.btn-redes:hover i {
+        transform: scale(1.2);
+        color: #f1f1f1;
+}
+
+.btn-redes::before {
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        background: #e0a9fc;
+        transform: rotate(45deg);
+        left: -110%;
+        top: 90%;
+}
+
+.btn-redes:hover::before {
+        -webkit-animation: aaa 0.7s 1;
+                animation: aaa 0.7s 1;
+        top: -10%;
+        left: -10%;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 767px) {
+    .titulo{
+        font-size: 20px;
+    }
+    strong{
+        font-size: 15px;
+    }
+    .user-page-logos{
+        width: 60px;
+    }
+    .contacto{
+        padding: 30px 0 30px 0;
+    }
+    .navbar{
+        padding-left: 5px;
+    }
+    .navbar-nav{
+        padding-top: 0;
+    }
+}
