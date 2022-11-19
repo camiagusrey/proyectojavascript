@@ -15,7 +15,7 @@ dropdownCarrito.addEventListener("click", e => e.stopPropagation())
 
 let misProductos = [];
 let carrito = [];
-fetch("../productos.json")
+fetch("/productos.json")
 .then(res => res.json())
 .then(data => {
     data.forEach(producto => misProductos.push(new Producto(producto.id, producto.nombre, producto.categoria, producto.talles, producto.precio, producto.imagen)));
